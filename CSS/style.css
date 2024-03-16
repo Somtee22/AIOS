@@ -1,0 +1,143 @@
+
+:root {
+    --primary-color: #7C22FF;
+    --secondary-color: #3E3FAB;
+    --pri-text: #fff;
+    --sec-text: black;
+    --hover-text: #00D8FB;
+}
+
+.button1 {
+    font-family: "Nunito", Sans-serif;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: Sans-serif;
+    font-size: 17px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--secondary-color);
+    border-radius: 40px 0 0 0;
+    background-color: white;
+    display: inline-block;
+    font-weight: 700;
+    outline: 0;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    z-index: 1;
+    width: 250px;
+    height: 70px;
+}
+
+.middle-text {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    z-index: 5;
+    border-radius: 50%;
+    color: #000;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--secondary-color);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.button2 {
+    width: 250px;
+    height: 70px;
+    font-family: "Nunito", Sans-serif;
+    cursor: pointer;
+ text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    outline: 0;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    padding: 20px;
+    z-index: 1;
+    font-family: Sans-serif;
+    font-size: 17px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--primary-color);
+    border-radius: 0 0 40px 0;
+    background-color: var(--primary-color);
+
+}
+
+.col-container{
+    
+    
+}
+.content{
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #F7F7F7;
+    padding:36px 30px 19px 40px;
+}
+
+.aios-h3{
+    color: #2575fc;
+    font-family: "Nunito", Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -.1px;
+}
+
+.aios-para{
+    margin: 23px 0 0 0;
+    font-family: "Nunito", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #747880;
+}
+
+.aios-button{
+    text-decoration: none;
+    padding: 11px 20px 11px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #262A2B;
+    background-color: #FFF0;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #262A2B ;
+    border-radius: 32px 32px 32px 32px;
+}
+
+.aios-button:hover{
+    border-color: var(--primary-color) ;
+    color: var(--primary-color);
+}
+
+
+.aios-button2:hover{
+    border-color: var(--primary-color) ;
+    color: var(--primary-color);
+    background-color: white;
+}
+
+.aios-button2{
+    padding: 11px 22px 11px 22px;
+   text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+    background-color: var(--primary-color);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--primary-color);
+    border-radius: 32px 32px 32px 32px;
+}
