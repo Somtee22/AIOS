@@ -1,6 +1,5 @@
-
 :root {
-    --primary-color: #7C22FF;
+    --primary-color: #e4862b;
     --secondary-color: #3E3FAB;
     --pri-text: #fff;
     --sec-text: black;
@@ -53,7 +52,7 @@
     height: 70px;
     font-family: "Nunito", Sans-serif;
     cursor: pointer;
- text-decoration: none;
+    text-decoration: none;
     display: inline-block;
     font-weight: 700;
     outline: 0;
@@ -73,18 +72,14 @@
 
 }
 
-.col-container{
-    
-    
-}
-.content{
+.content {
     border-style: solid;
     border-width: 2px 2px 2px 2px;
     border-color: #F7F7F7;
-    padding:36px 30px 19px 40px;
+    padding: 36px 30px 19px 40px;
 }
 
-.aios-h3{
+.soteria-h3 {
     color: #2575fc;
     font-family: "Nunito", Sans-serif;
     font-size: 23px;
@@ -93,7 +88,7 @@
     letter-spacing: -.1px;
 }
 
-.aios-para{
+.soteria-para {
     margin: 23px 0 0 0;
     font-family: "Nunito", Sans-serif;
     font-size: 16px;
@@ -102,7 +97,7 @@
     color: #747880;
 }
 
-.aios-button{
+.soteria-button {
     text-decoration: none;
     padding: 11px 20px 11px 20px;
     font-size: 15px;
@@ -112,25 +107,25 @@
     background-color: #FFF0;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
-    border-color: #262A2B ;
+    border-color: #262A2B;
     border-radius: 32px 32px 32px 32px;
 }
 
-.aios-button:hover{
-    border-color: var(--primary-color) ;
+.soteria-button:hover {
+    border-color: var(--primary-color);
     color: var(--primary-color);
 }
 
 
-.aios-button2:hover{
-    border-color: var(--primary-color) ;
+.soteria-button2:hover {
+    border-color: var(--primary-color);
     color: var(--primary-color);
     background-color: white;
 }
 
-.aios-button2{
+.soteria-button2 {
     padding: 11px 22px 11px 22px;
-   text-decoration: none;
+    text-decoration: none;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -140,4 +135,121 @@
     border-width: 1px 1px 1px 1px;
     border-color: var(--primary-color);
     border-radius: 32px 32px 32px 32px;
+}
+
+.headin {
+    font-size: 65px;
+    font-weight: 400;
+    font-family: "Nunito", Sans-serif;
+}
+
+.rate-para {
+    font-size: 12px;
+    font-family: "Nunito", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.pricing-header {
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.pricing-title {
+    font-family: "Nunito", Sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    padding: 0 0 2px 0;
+
+}
+
+.pricing-subtitle {
+    color: #262A2B;
+    font-family: "Nunito", Sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+
+}
+
+.pricing-price-wraper {
+    padding: 8px 0 8px 0;
+    margin: 0 0 50px 0;
+    position: relative;
+}
+
+.pricing-tag {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    border-radius: 48px 0 0 48px;
+}
+
+.pricing-price {
+    color: white;
+    position: relative;
+    z-index: 2;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -.4px;
+    display: block;
+}
+
+.currency {
+    top: 0;
+    left: 5px;
+}
+
+.currency2 {
+    top: 0;
+    left: 5px;
+    vertical-align: super;
+    font-size: 18px;
+}
+
+.period {
+    position: absolute;
+    font-size: 18px;
+    font-family: "Nunito", Sans-serif;
+    vertical-align: super;
+    bottom: 0;
+}
+
+
+.commentor-content p {
+    margin: 0 20px 20px 20px;
+    font-family: "Nunito", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #7D8089;
+    text-align: start;
+}
+
+.author-name {
+    color: var(--secondary-color);
+    font-family: "Nunito", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-bottom: 0;
+}
+
+.socials a {
+    font-size: 22px;
+    margin-right: 17px;
+    transition: all 0 .4s ease;
+    color: white;
+}
+
+.list-unstyled li a {
+    font-family: 'Nunito', Sans-serif;
+    font-size: 17px;
+    color: white;
+    font-weight: 300;
+    transition: all 0.4s ease;
+    text-decoration: none;
+    line-height: 20px;
 }
