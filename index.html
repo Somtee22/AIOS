@@ -29,6 +29,7 @@
         margin: 0;
 
       }
+
       .respons {
         flex-wrap: wrap;
       }
@@ -50,7 +51,7 @@
           max-height: min-content;
           font-family: Nunito, Sans-serif;
         ">
-      <nav class="navbar navbar-expand-lg w-75 m-auto d-flex">
+      <nav class="navbar navbar-expand-lg w-75 m-auto  d-flex">
         <div class="container-fluid d-flex mt-2 justify-content-around">
           <div class="img-fluid w-25">
             <img class="w-50" src="http://getsoteria.com/wp-content/uploads/2023/10/sot-logo-white.png" alt="logo" />
@@ -61,7 +62,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
-              <li class="nav-item">
+              <li class="nav-item ms-5">
                 <a class="nav-link text-white" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
@@ -165,19 +166,19 @@
 
     <!-- part2 -->
     <div class=" mt-5">
-      <div class="container text-center d-flex flex-wrap"  style="margin-bottom: 70px;">
+      <div class="container text-center d-flex flex-wrap" style="margin-bottom: 70px;">
         <div class="d-flex justify-content-between flex-wrap container-fluid  m-auto">
 
           <!-- img1 -->
-          <div class="card" style="width:25rem; max-height: 600px; background-color: var(--secondary-color);">
+          <div class="card" style="width:25rem; max-height: 600px;">
             <div class="img-fluid" style="width: 40">
-              <img class="w-100" src="http://getsoteria.com/wp-content/uploads/2023/10/sot-logo-white.png" alt="aios" />
+              <img class="w-100" src="http://getsoteria.com/wp-content/uploads/2023/10/sot-logo-white.png" style=" background-color: var(--secondary-color);" alt="aios" />
             </div>
 
             <div class="content w-100">
               <div class="">
-                <h3 class="aios-h3">Soteria free version</h3>
-                <div class="aios-para">
+                <h3 class="soteria-h3">Soteria free version</h3>
+                <div class="soteria-para">
                   Soteria is one of the most comprehensive, feature-rich,
                   WordPress security plugins.
                 </div>
@@ -185,7 +186,7 @@
               <div class="mt-4">
                 <div class="box-footer">
                   <div class="mb-2">
-                    <a href="" class="soteria-button">
+                    <a href="" class="soteria-button2">
                       Download
                     </a>
                   </div>
@@ -195,9 +196,9 @@
           </div>
 
           <!-- img2 -->
-          <div class="card" style="width: 25rem; max-height: 600px; background-color: var(--secondary-color);">
+          <div class="card" style="width: 25rem; max-height: 600px;">
             <div class="img-fluid" style="width: 50">
-              <img class="w-100" src="http://getsoteria.com/wp-content/uploads/2023/10/sot-logo-white.png" alt="aios" />
+              <img class="w-100" src="http://getsoteria.com/wp-content/uploads/2023/10/sot-logo-white.png" style=" background-color: var(--secondary-color);" alt="aios" />
             </div>
             <div class="content">
               <div class="">
@@ -217,9 +218,9 @@
             </div>
           </div>
           <!-- img3 -->
-          <div class="card" style="width: 25rem; max-height: 600px; background-color: var(--secondary-color);">
-            <div class="img-fluid" style="width: 50">
-              <img class="w-100" src=" http://getsoteria.com/wp-content/uploads/2023/10/sot-logo-white.png"
+          <div class="card" style="width: 25rem; max-height: 600px;">
+            <div class="img-fluid" style="width: 50;">
+              <img class="w-100" src=" http://getsoteria.com/wp-content/uploads/2023/10/sot-logo-white.png" style=" background-color: var(--secondary-color);""
                 alt="aios" />
               <div class="content">
                 <div class="">
@@ -230,7 +231,7 @@
                   </div>
                 </div>
                 <div class="lh-1 mt-2">
-                  <a href="" class="soteria-button">
+                  <a href="" class="soteria-button2">
                     Get in touch
                   </a>
                 </div>
@@ -304,8 +305,8 @@
         </div>
 
       </div>
-       <!-- card4 -->
-       <div class="d-flex  m-auto" style="width: 30rem; background-color: #262A2B;">
+      <!-- card4 -->
+      <div class="d-flex  m-auto" style="width: 30rem; background-color: #262A2B;">
         <div class="card-body text-center">
           <div class="img-fluid w-100 m-auto text-warning">
             <i class="bi bi-file-earmark-fill" style="font-size: 6rem;"></i>
@@ -441,7 +442,7 @@
     <div class="container d-flex flex-wrap mt-5 pb-5">
       <div class="d-flex w-100 flex-wrap container-fluid justify-content-center m-auto" style="gap: 20px;">
         <!-- img1 -->
-        <div class="card shadow" style="width:22rem; max-height: 1000px;">
+        <div class="card shadow" style="width:22rem; max-height: 900px;">
           <div class="pricing-header text-center">
             <h3 class="pricing-title" style="color: var(--secondary-color);">Basic </h3>
             <p class="pricing-subtitle">More features for free</p>
@@ -454,7 +455,7 @@
             </span>
           </div>
           <div class="pricing-content ">
-            <p> </p>
+            <p></p>
             <h2><b> Login Security Features:</b> <br><br></h2>
 
             - Prevent brute force attacks<br>
@@ -464,7 +465,7 @@
             - Cloudflare Turnstile CAPTCHA alternative<br>
             - Password Strength tool<br>
             - Stop user enumeration<br>
-            <br><br>
+            <br>
 
             <h2><b>Soteria Firewall and File Protection:</b> <br><br></h2>
             - Protection from the latest exploits<br>
@@ -472,11 +473,12 @@
             - 6G blacklist<br>
             - XSS protection<br>
             - Blacklist users<br>
-            - File change detection
-            <br>
+            - File change detection <br>
           </div>
-          <div class="pricing-btn-wraper ">
-            <a href="https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/" class="">
+          <div class="mt-2">
+            <a class="pricing-btn-wraper text-decoration-none p-1 fs-6 "
+              href="https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/"
+              style="background-color: white; border: 2px solid  #3E3FAB; color:  #3E3FAB; border-radius: 10rem;">
               Download Free </a>
           </div>
         </div>
@@ -495,7 +497,7 @@
               <sub class="period">Year (inc VAT)</sub>
             </span>
           </div>
-          <div class="elementskit-pricing-content ">
+          <div class="pricing-content ">
 
             <p> </p>
             <h2><b> Prevent brute force attacks</b> <br><br></h2>
@@ -507,13 +509,9 @@
             - Instant notifications<br>
             - Checks search engine blacklists<br>
             - Help if something’s amiss<br>
-            <br><br>
+            <br>
 
-
-
-
-
-            <h2><b>Flexible and advanced Two-Factor Authentication (TFA):</b> <br><br></h2>
+            <h2><b>Flexible and advanced Two-Factor Authentication (TFA):</b><br><br></h2>
 
             - Role specific configuration<br>
             - Time based activation<br>
@@ -523,15 +521,16 @@
             <br>
 
           </div>
-          <div class="elementskit-pricing-btn-wraper ">
+          <div class=" pricing-btn-wraper mt-1  ">
             <a href="https://aiosplugin.com/product/all-in-one-wp-security-and-firewall-premium"
-              class="elementskit-pricing-btn  ekit-pricing-btn-icon-pos-right">
+              class="text-warning text-decoration-none p-1 px-3 fs-6 border-warning"
+              style="background-color: white; border: 2px solid ;  border-radius: 10rem;">
               Get Pro </a>
           </div>
         </div>
 
         <!-- img3 -->
-        <div class="card shadow" style="width:22rem; max-height: 1000px;">
+        <div class="card shadow" style="width:22rem; max-height: 900px;">
           <div class="pricing-header text-center">
             <h3 class="pricing-title text-info">Gold</h3>
             <p class="pricing-subtitle">Everything in Basic, plus the below</p>
@@ -539,13 +538,12 @@
           <div class=" pricing-price-wraper text-center">
             <div class="pricing-tag bg-info"></div>
             <span class="pricing-price">
-              <sup class="currency2">From $</sup>
-              <span>80</span>
-              <sub class="period">Year (inc VAT)</sub>
+              <sup class="currency2">$</sup>
+              <span>100</span>
+              <sub class="period"></sub>
             </span>
           </div>
-          <div class="elementskit-pricing-content ">
-
+          <div class="pricing-content ">
             <p> </p>
             <h2><b> Malware Scanning:</b> <br><br></h2>
 
@@ -556,22 +554,28 @@
             - Instant notifications<br>
             - Checks search engine blacklists<br>
             - Help if something’s amiss<br>
-            <br><br>
-
-            <h2><b>Flexible and advanced Two-Factor Authentication (TFA):</b> <br><br></h2>
-
-            - Role specific configuration<br>
-            - Time based activation<br>
-            - Emergency codes for lost devices<br>
-            - Customise design<br>
-            - Supports third-party forms<br>
             <br>
 
+            <h2><b>
+                Sophisticated Country Blocking</b> <br><br></h2>
+
+            - Block hackers searching for weaknesses / generating 404s<br>
+
+            - Country blocking to 99.5% accuracy<br>
+            - Emergency codes for lost devices<br>
+            - Customise design<br>
+  
+            <br>
+
+
+
+
           </div>
-          <div class="elementskit-pricing-btn-wraper ">
+          <div class="pricing-btn-wraper ">
             <a href="https://aiosplugin.com/product/all-in-one-wp-security-and-firewall-premium"
-              class="elementskit-pricing-btn  ekit-pricing-btn-icon-pos-right">
-              Get Premium </a>
+              class="text-info text-decoration-none p-1 px-3 fs-6 border-info"
+              style="background-color: white; border: 2px solid ;  border-radius: 10rem;">
+              Get Gold </a>
           </div>
         </div>
       </div>
@@ -665,60 +669,133 @@
     </div>
   </section>
 
-<!-- Faq -->
-<section id="FAQ">
-  <div class="w-100 h-auto mb-5 bg-white" style="background-color: #F0F0F0D1; ">\
-    <div class="text-center p-5">
-      <h1 class="fs-1" style="color: var(--secondary-color);   font-family: Nunito, Sans-serif;">
-        Frequently Asked Questions
-      </h1>
-  
-  </div>
-  <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-      What is website security?
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Website security is crucial for safeguarding your online
-        presence against cyber threats such as malware and vulnerabilities.
-         With Soteria's comprehensive website security solutions, you benefit from daily scans, automated malware removal, vulnerability patching, and a robust web application firewall that blocks harmful traffic.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Do I need website security?
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Every website, regardless of size, is vulnerable to hacking. Being proactive with security
-         measures is far better than reacting to breaches later. On average,
-          websites face a staggering 58 cyberattacks per day, making preemptive security essential. Explore our blog on 'Why Do I Need Website Security?' for more insights.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Why are website backups important?
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Website backups are a vital part of security. They offer a simple way to save a complete copy of your website, 
-        including files and databases. With just a click, you can restore your website in case of accidental or malicious code corruption.
+  <!-- Faq -->
+  <section id="FAQ">
+    <div class="w-100 h-auto mb-5 bg-white" style="background-color: #F0F0F0D1; ">\
+      <div class="text-center p-5">
+        <h1 class="fs-1" style="color: var(--secondary-color);   font-family: Nunito, Sans-serif;">
+          Frequently Asked Questions
+        </h1>
 
       </div>
-    </div>
-  </div>
-</div>
-</section>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              What is website security?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Website security is crucial for safeguarding your online
+              presence against cyber threats such as malware and vulnerabilities.
+              With Soteria's comprehensive website security solutions, you benefit from daily scans, automated malware
+              removal, vulnerability patching, and a robust web application firewall that blocks harmful traffic.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Do I need website security?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Every website, regardless of size, is vulnerable to hacking. Being proactive with security
+              measures is far better than reacting to breaches later. On average,
+              websites face a staggering 58 cyberattacks per day, making preemptive security essential. Explore our blog
+              on 'Why Do I Need Website Security?' for more insights.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Why are website backups important?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Website backups are a vital part of security. They offer a simple way to save a complete copy of your
+              website,
+              including files and databases. With just a click, you can restore your website in case of accidental or
+              malicious code corruption.
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              What are some common security threats?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Stay vigilant against common website security threats like brute force attacks, cross-site scripting
+              (XSS),
+              DDoS attacks, phishing attempts, malware infections, SQL injections, and more.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              How can I help prevent malware in the future?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              To safeguard your site against malware, ensure regular updates for your CMS, themes,
+              and plugins. Regularly clean your hosting account, avoid leaving backups on the same server, use strong
+              and regularly updated passwords,
+              and prioritize proactive security measures.
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              I have an SSL Certificate, so why do I need this?</button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              While SSL certificates encrypt data between your site and visitors, they don't fully protect against all
+              online threats. Enhance your security with Soteria's comprehensive solutions to prevent defacement,
+              resource theft, and other cyberattacks.
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Isn’t website security my host’s responsibility?
+
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              It's a common misconception that hosting providers are solely responsible for website security.
+              While they secure the server your site is hosted on, the responsibility for securing the website itself
+              falls on the website owner.
+              It's akin to securing an apartment building where property management secures the building, but each
+              tenant must secure their own apartment.
+
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
 
 
   <!-- footer -->
